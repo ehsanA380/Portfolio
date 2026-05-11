@@ -59,8 +59,8 @@ function runMatter() {
     Math.max(dimensions.width / 25, dimensions.height / 25) / 2,
     {
       render: {
-        fillStyle: `#000`,
-        strokeStyle: `#000`,
+        fillStyle: `#911`,
+        strokeStyle: `#111`,
         lineWidth: 0,
       },
 
@@ -128,7 +128,7 @@ function runMatter() {
       frictionAir: 0,
       render: {
         fillStyle: r > 0.3 ? `#334443` : `#222222`,
-        strokeStyle: `#111111`,
+        strokeStyle: `#11111`,
         lineWidth: 4,
       },
     });
